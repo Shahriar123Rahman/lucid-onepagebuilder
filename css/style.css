@@ -161,9 +161,15 @@ header {
 }
 .feature-img {
   display: inline-block;
+  height: 100px;
+  width: 100px;
   border: 2px solid #e0e0e0;
-  padding: 30px 27px;
   margin: 30px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
 }
 .features h4 {
   color: #1a1a1a;
